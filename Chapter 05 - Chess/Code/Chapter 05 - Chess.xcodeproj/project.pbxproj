@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63ACE81718F07C5900C3FCFD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ACE81618F07C5900C3FCFD /* Cocoa.framework */; };
+		63ACE82118F07C5900C3FCFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE81F18F07C5900C3FCFD /* InfoPlist.strings */; };
+		63ACE82318F07C5900C3FCFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACE82218F07C5900C3FCFD /* main.m */; };
+		63ACE82718F07C5900C3FCFD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE82518F07C5900C3FCFD /* Credits.rtf */; };
+		63ACE82A18F07C5900C3FCFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACE82918F07C5900C3FCFD /* AppDelegate.m */; };
+		63ACE82D18F07C5900C3FCFD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE82B18F07C5900C3FCFD /* MainMenu.xib */; };
+		63ACE82F18F07C5900C3FCFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE82E18F07C5900C3FCFD /* Images.xcassets */; };
+		63ACE84C18F07C7300C3FCFD /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACE84B18F07C7300C3FCFD /* ChessView.m */; };
+		63ACE85618F07D1A00C3FCFD /* B AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE84D18F07D1A00C3FCFD /* B AO.png */; };
+		63ACE85718F07D1A00C3FCFD /* chess pieces.dae in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE84E18F07D1A00C3FCFD /* chess pieces.dae */; };
+		63ACE85918F07D1A00C3FCFD /* K AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE85018F07D1A00C3FCFD /* K AO.png */; };
+		63ACE85A18F07D1A00C3FCFD /* Kn AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE85118F07D1A00C3FCFD /* Kn AO.png */; };
+		63ACE85B18F07D1A00C3FCFD /* Kn Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE85218F07D1A00C3FCFD /* Kn Normal.png */; };
+		63ACE85C18F07D1A00C3FCFD /* P AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE85318F07D1A00C3FCFD /* P AO.png */; };
+		63ACE85D18F07D1A00C3FCFD /* Q AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE85418F07D1A00C3FCFD /* Q AO.png */; };
+		63ACE85E18F07D1A00C3FCFD /* R AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE85518F07D1A00C3FCFD /* R AO.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63ACE81318F07C5900C3FCFD /* Chapter 05 - Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 05 - Chess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ACE81618F07C5900C3FCFD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		63ACE81918F07C5900C3FCFD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		63ACE81A18F07C5900C3FCFD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		63ACE81B18F07C5900C3FCFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63ACE81E18F07C5900C3FCFD /* Chapter 05 - Chess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chapter 05 - Chess-Info.plist"; sourceTree = "<group>"; };
+		63ACE82018F07C5900C3FCFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63ACE82218F07C5900C3FCFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63ACE82418F07C5900C3FCFD /* Chapter 05 - Chess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chapter 05 - Chess-Prefix.pch"; sourceTree = "<group>"; };
+		63ACE82618F07C5900C3FCFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		63ACE82818F07C5900C3FCFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63ACE82918F07C5900C3FCFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63ACE82C18F07C5900C3FCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		63ACE82E18F07C5900C3FCFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63ACE83518F07C5900C3FCFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63ACE84A18F07C7300C3FCFD /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
+		63ACE84B18F07C7300C3FCFD /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
+		63ACE84D18F07D1A00C3FCFD /* B AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B AO.png"; sourceTree = "<group>"; };
+		63ACE84E18F07D1A00C3FCFD /* chess pieces.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "chess pieces.dae"; sourceTree = "<group>"; };
+		63ACE85018F07D1A00C3FCFD /* K AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K AO.png"; sourceTree = "<group>"; };
+		63ACE85118F07D1A00C3FCFD /* Kn AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kn AO.png"; sourceTree = "<group>"; };
+		63ACE85218F07D1A00C3FCFD /* Kn Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kn Normal.png"; sourceTree = "<group>"; };
+		63ACE85318F07D1A00C3FCFD /* P AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P AO.png"; sourceTree = "<group>"; };
+		63ACE85418F07D1A00C3FCFD /* Q AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q AO.png"; sourceTree = "<group>"; };
+		63ACE85518F07D1A00C3FCFD /* R AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R AO.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63ACE81018F07C5900C3FCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACE81718F07C5900C3FCFD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636A04661A0FC6B2007FD4D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE84E18F07D1A00C3FCFD /* chess pieces.dae */,
+				636A04671A0FC6C0007FD4D2 /* Textures */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		636A04671A0FC6C0007FD4D2 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE84D18F07D1A00C3FCFD /* B AO.png */,
+				63ACE85018F07D1A00C3FCFD /* K AO.png */,
+				63ACE85118F07D1A00C3FCFD /* Kn AO.png */,
+				63ACE85218F07D1A00C3FCFD /* Kn Normal.png */,
+				63ACE85318F07D1A00C3FCFD /* P AO.png */,
+				63ACE85418F07D1A00C3FCFD /* Q AO.png */,
+				63ACE85518F07D1A00C3FCFD /* R AO.png */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		63ACE80A18F07C5900C3FCFD = {
+			isa = PBXGroup;
+			children = (
+				63ACE81C18F07C5900C3FCFD /* Chapter 05 - Chess */,
+				63ACE81518F07C5900C3FCFD /* Frameworks */,
+				63ACE81418F07C5900C3FCFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63ACE81418F07C5900C3FCFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE81318F07C5900C3FCFD /* Chapter 05 - Chess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63ACE81518F07C5900C3FCFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE81618F07C5900C3FCFD /* Cocoa.framework */,
+				63ACE83518F07C5900C3FCFD /* XCTest.framework */,
+				63ACE81818F07C5900C3FCFD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63ACE81818F07C5900C3FCFD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE81918F07C5900C3FCFD /* AppKit.framework */,
+				63ACE81A18F07C5900C3FCFD /* CoreData.framework */,
+				63ACE81B18F07C5900C3FCFD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		63ACE81C18F07C5900C3FCFD /* Chapter 05 - Chess */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE82818F07C5900C3FCFD /* AppDelegate.h */,
+				63ACE82918F07C5900C3FCFD /* AppDelegate.m */,
+				63ACE82B18F07C5900C3FCFD /* MainMenu.xib */,
+				63ACE84A18F07C7300C3FCFD /* ChessView.h */,
+				63ACE84B18F07C7300C3FCFD /* ChessView.m */,
+				636A04661A0FC6B2007FD4D2 /* Resources */,
+				63ACE82E18F07C5900C3FCFD /* Images.xcassets */,
+				63ACE81D18F07C5900C3FCFD /* Supporting Files */,
+			);
+			path = "Chapter 05 - Chess";
+			sourceTree = "<group>";
+		};
+		63ACE81D18F07C5900C3FCFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE81E18F07C5900C3FCFD /* Chapter 05 - Chess-Info.plist */,
+				63ACE81F18F07C5900C3FCFD /* InfoPlist.strings */,
+				63ACE82218F07C5900C3FCFD /* main.m */,
+				63ACE82418F07C5900C3FCFD /* Chapter 05 - Chess-Prefix.pch */,
+				63ACE82518F07C5900C3FCFD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63ACE81218F07C5900C3FCFD /* Chapter 05 - Chess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ACE84418F07C5900C3FCFD /* Build configuration list for PBXNativeTarget "Chapter 05 - Chess" */;
+			buildPhases = (
+				63ACE80F18F07C5900C3FCFD /* Sources */,
+				63ACE81018F07C5900C3FCFD /* Frameworks */,
+				63ACE81118F07C5900C3FCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chapter 05 - Chess";
+			productName = "Chapter 05 - Chess";
+			productReference = 63ACE81318F07C5900C3FCFD /* Chapter 05 - Chess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63ACE80B18F07C5900C3FCFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Rönnqvist";
+			};
+			buildConfigurationList = 63ACE80E18F07C5900C3FCFD /* Build configuration list for PBXProject "Chapter 05 - Chess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63ACE80A18F07C5900C3FCFD;
+			productRefGroup = 63ACE81418F07C5900C3FCFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63ACE81218F07C5900C3FCFD /* Chapter 05 - Chess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63ACE81118F07C5900C3FCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACE85D18F07D1A00C3FCFD /* Q AO.png in Resources */,
+				63ACE82118F07C5900C3FCFD /* InfoPlist.strings in Resources */,
+				63ACE82F18F07C5900C3FCFD /* Images.xcassets in Resources */,
+				63ACE85B18F07D1A00C3FCFD /* Kn Normal.png in Resources */,
+				63ACE85E18F07D1A00C3FCFD /* R AO.png in Resources */,
+				63ACE85A18F07D1A00C3FCFD /* Kn AO.png in Resources */,
+				63ACE85618F07D1A00C3FCFD /* B AO.png in Resources */,
+				63ACE82718F07C5900C3FCFD /* Credits.rtf in Resources */,
+				63ACE82D18F07C5900C3FCFD /* MainMenu.xib in Resources */,
+				63ACE85718F07D1A00C3FCFD /* chess pieces.dae in Resources */,
+				63ACE85918F07D1A00C3FCFD /* K AO.png in Resources */,
+				63ACE85C18F07D1A00C3FCFD /* P AO.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63ACE80F18F07C5900C3FCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACE84C18F07C7300C3FCFD /* ChessView.m in Sources */,
+				63ACE82A18F07C5900C3FCFD /* AppDelegate.m in Sources */,
+				63ACE82318F07C5900C3FCFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63ACE81F18F07C5900C3FCFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ACE82018F07C5900C3FCFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63ACE82518F07C5900C3FCFD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ACE82618F07C5900C3FCFD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		63ACE82B18F07C5900C3FCFD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ACE82C18F07C5900C3FCFD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63ACE84218F07C5900C3FCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63ACE84318F07C5900C3FCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63ACE84518F07C5900C3FCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter 05 - Chess/Chapter 05 - Chess-Prefix.pch";
+				INFOPLIST_FILE = "Chapter 05 - Chess/Chapter 05 - Chess-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63ACE84618F07C5900C3FCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter 05 - Chess/Chapter 05 - Chess-Prefix.pch";
+				INFOPLIST_FILE = "Chapter 05 - Chess/Chapter 05 - Chess-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63ACE80E18F07C5900C3FCFD /* Build configuration list for PBXProject "Chapter 05 - Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ACE84218F07C5900C3FCFD /* Debug */,
+				63ACE84318F07C5900C3FCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63ACE84418F07C5900C3FCFD /* Build configuration list for PBXNativeTarget "Chapter 05 - Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ACE84518F07C5900C3FCFD /* Debug */,
+				63ACE84618F07C5900C3FCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63ACE80B18F07C5900C3FCFD /* Project object */;
+}
