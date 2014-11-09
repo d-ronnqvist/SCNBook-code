@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63ACE8B918F17C5F00C3FCFD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ACE8B818F17C5F00C3FCFD /* Cocoa.framework */; };
+		63ACE8C318F17C5F00C3FCFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE8C118F17C5F00C3FCFD /* InfoPlist.strings */; };
+		63ACE8C518F17C5F00C3FCFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACE8C418F17C5F00C3FCFD /* main.m */; };
+		63ACE8C918F17C5F00C3FCFD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE8C718F17C5F00C3FCFD /* Credits.rtf */; };
+		63ACE8CC18F17C5F00C3FCFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACE8CB18F17C5F00C3FCFD /* AppDelegate.m */; };
+		63ACE8CF18F17C5F00C3FCFD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE8CD18F17C5F00C3FCFD /* MainMenu.xib */; };
+		63ACE8D118F17C5F00C3FCFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ACE8D018F17C5F00C3FCFD /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63ACE8B518F17C5F00C3FCFD /* Chapter 07 - Custom Cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 07 - Custom Cube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ACE8B818F17C5F00C3FCFD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		63ACE8BB18F17C5F00C3FCFD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		63ACE8BC18F17C5F00C3FCFD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		63ACE8BD18F17C5F00C3FCFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63ACE8C018F17C5F00C3FCFD /* Chapter 07 - Custom Cube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chapter 07 - Custom Cube-Info.plist"; sourceTree = "<group>"; };
+		63ACE8C218F17C5F00C3FCFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63ACE8C418F17C5F00C3FCFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63ACE8C618F17C5F00C3FCFD /* Chapter 07 - Custom Cube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chapter 07 - Custom Cube-Prefix.pch"; sourceTree = "<group>"; };
+		63ACE8C818F17C5F00C3FCFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		63ACE8CA18F17C5F00C3FCFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63ACE8CB18F17C5F00C3FCFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63ACE8CE18F17C5F00C3FCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		63ACE8D018F17C5F00C3FCFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63ACE8D718F17C5F00C3FCFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63ACE8B218F17C5F00C3FCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACE8B918F17C5F00C3FCFD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63ACE8AC18F17C5F00C3FCFD = {
+			isa = PBXGroup;
+			children = (
+				63ACE8BE18F17C5F00C3FCFD /* Chapter 07 - Custom Cube */,
+				63ACE8B718F17C5F00C3FCFD /* Frameworks */,
+				63ACE8B618F17C5F00C3FCFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63ACE8B618F17C5F00C3FCFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE8B518F17C5F00C3FCFD /* Chapter 07 - Custom Cube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63ACE8B718F17C5F00C3FCFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE8B818F17C5F00C3FCFD /* Cocoa.framework */,
+				63ACE8D718F17C5F00C3FCFD /* XCTest.framework */,
+				63ACE8BA18F17C5F00C3FCFD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63ACE8BA18F17C5F00C3FCFD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE8BB18F17C5F00C3FCFD /* AppKit.framework */,
+				63ACE8BC18F17C5F00C3FCFD /* CoreData.framework */,
+				63ACE8BD18F17C5F00C3FCFD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		63ACE8BE18F17C5F00C3FCFD /* Chapter 07 - Custom Cube */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE8CA18F17C5F00C3FCFD /* AppDelegate.h */,
+				63ACE8CB18F17C5F00C3FCFD /* AppDelegate.m */,
+				63ACE8CD18F17C5F00C3FCFD /* MainMenu.xib */,
+				63ACE8D018F17C5F00C3FCFD /* Images.xcassets */,
+				63ACE8BF18F17C5F00C3FCFD /* Supporting Files */,
+			);
+			path = "Chapter 07 - Custom Cube";
+			sourceTree = "<group>";
+		};
+		63ACE8BF18F17C5F00C3FCFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63ACE8C018F17C5F00C3FCFD /* Chapter 07 - Custom Cube-Info.plist */,
+				63ACE8C118F17C5F00C3FCFD /* InfoPlist.strings */,
+				63ACE8C418F17C5F00C3FCFD /* main.m */,
+				63ACE8C618F17C5F00C3FCFD /* Chapter 07 - Custom Cube-Prefix.pch */,
+				63ACE8C718F17C5F00C3FCFD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63ACE8B418F17C5F00C3FCFD /* Chapter 07 - Custom Cube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ACE8E618F17C5F00C3FCFD /* Build configuration list for PBXNativeTarget "Chapter 07 - Custom Cube" */;
+			buildPhases = (
+				63ACE8B118F17C5F00C3FCFD /* Sources */,
+				63ACE8B218F17C5F00C3FCFD /* Frameworks */,
+				63ACE8B318F17C5F00C3FCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chapter 07 - Custom Cube";
+			productName = "Chapter 07 - Custom Cube";
+			productReference = 63ACE8B518F17C5F00C3FCFD /* Chapter 07 - Custom Cube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63ACE8AD18F17C5F00C3FCFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Rönnqvist";
+			};
+			buildConfigurationList = 63ACE8B018F17C5F00C3FCFD /* Build configuration list for PBXProject "Chapter 07 - Custom Cube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63ACE8AC18F17C5F00C3FCFD;
+			productRefGroup = 63ACE8B618F17C5F00C3FCFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63ACE8B418F17C5F00C3FCFD /* Chapter 07 - Custom Cube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63ACE8B318F17C5F00C3FCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACE8C318F17C5F00C3FCFD /* InfoPlist.strings in Resources */,
+				63ACE8D118F17C5F00C3FCFD /* Images.xcassets in Resources */,
+				63ACE8C918F17C5F00C3FCFD /* Credits.rtf in Resources */,
+				63ACE8CF18F17C5F00C3FCFD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63ACE8B118F17C5F00C3FCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACE8CC18F17C5F00C3FCFD /* AppDelegate.m in Sources */,
+				63ACE8C518F17C5F00C3FCFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63ACE8C118F17C5F00C3FCFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ACE8C218F17C5F00C3FCFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63ACE8C718F17C5F00C3FCFD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ACE8C818F17C5F00C3FCFD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		63ACE8CD18F17C5F00C3FCFD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ACE8CE18F17C5F00C3FCFD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63ACE8E418F17C5F00C3FCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63ACE8E518F17C5F00C3FCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63ACE8E718F17C5F00C3FCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter 07 - Custom Cube/Chapter 07 - Custom Cube-Prefix.pch";
+				INFOPLIST_FILE = "Chapter 07 - Custom Cube/Chapter 07 - Custom Cube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63ACE8E818F17C5F00C3FCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter 07 - Custom Cube/Chapter 07 - Custom Cube-Prefix.pch";
+				INFOPLIST_FILE = "Chapter 07 - Custom Cube/Chapter 07 - Custom Cube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63ACE8B018F17C5F00C3FCFD /* Build configuration list for PBXProject "Chapter 07 - Custom Cube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ACE8E418F17C5F00C3FCFD /* Debug */,
+				63ACE8E518F17C5F00C3FCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63ACE8E618F17C5F00C3FCFD /* Build configuration list for PBXNativeTarget "Chapter 07 - Custom Cube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ACE8E718F17C5F00C3FCFD /* Debug */,
+				63ACE8E818F17C5F00C3FCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63ACE8AD18F17C5F00C3FCFD /* Project object */;
+}
