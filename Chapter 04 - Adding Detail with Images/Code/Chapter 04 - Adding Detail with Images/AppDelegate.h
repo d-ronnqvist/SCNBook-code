@@ -26,7 +26,7 @@
 #import <Cocoa/Cocoa.h>
 @import SceneKit;
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, SCNSceneExportDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 
