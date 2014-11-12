@@ -44,8 +44,16 @@ const BOOL ShouldExportTexturedSpaceship   = !ShouldUseVideoFromDevicesCamera;
     shipMaterial.diffuse.contents  = [NSImage imageNamed:@"diffuse.png"];
     shipMaterial.specular.contents = [NSImage imageNamed:@"specular"];
     
-    // File names
-    shipMaterial.normal.contents   = @"normal";
+    // CGImageRefs
+    NSURL *normalImageURL = [[NSBundle mainBundle] URLForResource:@"normal" withExtension:@"png"];
+    NSData *imageData = [NSData dataWithContentsOfURL:normalImageURL];
+    CGDataProviderRef imageDataProvider = CGDataProviderCreateWithCFData((__bridge CFDataRef)imageData);
+    CGImageRef normalCGImage = CGImageCreateWithPNGDataProvider(imageDataProvider, NULL, YES, kCGRenderingIntentDefault);
+    
+    shipMaterial.normal.contents = (__bridge id)normalCGImage;
+    
+    CGImageRelease(normalCGImage);
+    CGDataProviderRelease(imageDataProvider);
     
     // Paths
     shipMaterial.emission.contents = [[NSBundle mainBundle] pathForResource:@"emission" ofType:@"png"];
