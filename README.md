@@ -2,7 +2,7 @@
 
 ## Sample code
 
-This repository contains sample code for [the soon-to-be-released iBook about Scene Kit][book].
+This repository contains sample code for [my iBook about Scene Kit][book].
 
 ## How to use this code
 
