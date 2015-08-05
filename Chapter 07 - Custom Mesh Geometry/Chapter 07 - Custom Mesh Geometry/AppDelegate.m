@@ -161,8 +161,8 @@
     // Scale down the image when used as a texture ...
     blueMaterial.diffuse.contentsTransform = CATransform3DMakeScale(5.0, 5.0, 1.0);
     // ... and make it repeat
-    blueMaterial.diffuse.wrapS = SCNRepeat;
-    blueMaterial.diffuse.wrapT = SCNRepeat;
+    blueMaterial.diffuse.wrapS = SCNWrapModeRepeat;
+    blueMaterial.diffuse.wrapT = SCNWrapModeRepeat;
     
     geometry.materials = @[blueMaterial];
     
