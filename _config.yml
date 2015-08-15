@@ -1,0 +1,11 @@
+name: 3D Graphics with Scene Kit
+
+permalink: /:title
+
+markdown: kramdown
+pygments: true
+
+author :
+  name : David Rönnqvist
+  github : d-ronnqvist
+  twitter : davidronnqvist

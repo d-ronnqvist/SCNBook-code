@@ -1,0 +1,17 @@
+---
+layout: default
+title: 3D Graphics with Scene Kit - Sample Code
+---
+
+<script type="text/javascript">
+var navElement = document.getElementById("sampleCodeNav");
+navElement.className = "selected";
+</script>
+<div id="home">
+  <h1>Sample Code</h1>
+  <ul class="posts">
+    {% for post in site.categories.samplecode %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
