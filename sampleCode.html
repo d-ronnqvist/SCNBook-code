@@ -9,8 +9,8 @@ navElement.className = "selected";
 </script>
 <style>
 .sampleDescription {
-	border-left: 3px solid lightgray;
-	padding: 5px;
+	border-right: 3px solid lightgray;
+	padding: 5px 15px;
 	margin-bottom: 55px;
 	min-height: 100px;
 }
@@ -25,7 +25,8 @@ navElement.className = "selected";
 	width: 100px;
 	height: 100px;
 	background: blue;
-	border: none;
+	border: 1px solid #bbb;
+	border-radius: 3px;
 	margin-right: 10px;
 	float: left;
 }
@@ -36,21 +37,22 @@ navElement.className = "selected";
 }
 
 .sampleDescription:nth-child(even) {
-	border-left: none;
-	border-right: 3px solid lightgray;
+	border-right: none;
+	border-left: 3px solid lightgray;
 }
 </style>
 <div id="home">
 
-<p>All of the sample code for this book is <a href="https://github.com/d-ronnqvist/SCNBook-code">available on GitHub</a>.</p>
+<p>All of the sample code for this book is <a href="https://github.com/d-ronnqvist/SCNBook-code">available on GitHub</a>. There is a sample project for most chapters in the book, and some chapters have more than one sample project.</p>
 
-<p>Most chapters of the book has one or more sample projects</p>
+<p>The repository contains the finished projects for you to download and experiment with. This is the same code that you will find at the end of each chapter (in the book itself). Some chapters require assets (3D models and/or textures) to follow along in your own project with what is being explained in the book. In those cases the folder also contains an Assets folder for you to download.</p>
+
+<p>These projects are documented to the extent of explaining what is happening in the code, but not necessary enough to explain underlying concepts. That is what the book is for. The sample projects are made to make sense if you&#8217;ve followed along with the chapter in the book.</p>
 
 <div class="posts">
 	{% for post in site.categories.samplecode reversed %}
 	<div class="sampleDescription">
-		<img src="" alt="" />
-		<a href="{{ post.codeurl }}">{{ post.title }}</a>
+		<!--<a href="{{ post.codeurl }}">{{ post.title }}</a>-->
 		{{ post.content }}
 	</div>
 	{% endfor %}
