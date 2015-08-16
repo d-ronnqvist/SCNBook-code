@@ -7,11 +7,52 @@ title: 3D Graphics with Scene Kit - Sample Code
 var navElement = document.getElementById("sampleCodeNav");
 navElement.className = "selected";
 </script>
+<style>
+.sampleDescription {
+	border-left: 3px solid lightgray;
+	padding: 5px;
+	margin-bottom: 55px;
+	min-height: 100px;
+}
+
+.sampleDescription p {
+	margin-top: 6px;
+	margin-bottom: 10px;
+	line-height: 1.3;
+}
+
+.sampleDescription img {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	border: none;
+	margin-right: 10px;
+	float: left;
+}
+
+.sampleDescription:nth-child(even) img {
+	margin-left: 10px;
+	float: right;
+}
+
+.sampleDescription:nth-child(even) {
+	border-left: none;
+	border-right: 3px solid lightgray;
+}
+</style>
 <div id="home">
-  <h1>Sample Code</h1>
-  <ul class="posts">
-    {% for post in site.categories.samplecode %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+<p>All of the sample code for this book is <a href="https://github.com/d-ronnqvist/SCNBook-code">available on GitHub</a>.</p>
+
+<p>Most chapters of the book has one or more sample projects</p>
+
+<div class="posts">
+	{% for post in site.categories.samplecode reversed %}
+	<div class="sampleDescription">
+		<img src="" alt="" />
+		<a href="{{ post.codeurl }}">{{ post.title }}</a>
+		{{ post.content }}
+	</div>
+	{% endfor %}
+</div>
 </div>
