@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
+<script type="text/javascript">
+var navElement = document.getElementById("blogNav");
+navElement.className = "selected";
+</script>
+<style>
+article img {
+	max-width: 100%;
+}
+</style>
+<h2>{{ page.title }}</h2>
+<!--<p class="meta">{{ page.date | date_to_string }}</p>-->
 <div class="post">
 {{ content }}
 </div>

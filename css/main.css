@@ -196,7 +196,7 @@ article ul {
 	padding: 10px 40px;
 	margin: 5px 20px;
 	margin-bottom: 30px;
-	list-style: upper-roman;
+	list-style: ;
 }
 
 article li {
@@ -220,14 +220,12 @@ article a:hover {
 	color: #4aa5e3;
 }
 
-
 hr {
-   border: 0;
-   width: 75%;
-   height: 1px;
-   color: #ddd;
-   background-color: #ddd;
-   margin-top: 60px;
-   margin-bottom: 60px;
- }
- 
+	border: 0;
+	width: 75%;
+	height: 1px;
+	color: #ddd;
+	background-color: #ddd;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
