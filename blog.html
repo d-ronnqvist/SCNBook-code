@@ -46,6 +46,7 @@ navElement.className = "selected";
     	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     	<span>{{ post.date | date_to_string }}</span>
     	<p>{{ post.description }}</p>
+    	<a href="{{ post.url }}">Read More ...</a>
     </div>
     {% endfor %}
   </div>
