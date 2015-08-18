@@ -16,6 +16,29 @@ navElement.className = "selected";
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.platforms {
+	width: calc(540% / 6.2);
+}
+
+.interactive {
+	width: calc(246% / 6.2);
+	float: right;
+}
+
+.sample_code {
+	width: calc(380% / 6.2);
+	float: left;
+}
+
+#interactive_pair p {
+	min-height: 170px;
+	padding-top: 18px;
+}
+
+#sample_code_pair {
+	margin-bottom: 70px;
+}
 </style>
 <div id="home">
 
@@ -31,22 +54,17 @@ navElement.className = "selected";
 
 <img class="platforms" src="images/Platforms.png" width="540" alt="Available on iPad and Mac" />
 
-
 <p>You can read the book on your Mac and your iPad. If you are running the latest developer tools, then you can also read this book on your Mac. If you are running iOS 7 or later on you iPad, then you can enjoy this book on-the-go.</p>
 
-<table class="two_col">
-<tr><td>
+<div id="interactive_pair">
+<img class="interactive" src="images/Interactive.png" width="246" alt="Contains interactive 3D objects" />
 <p>It is a Multi-Touch book about 3D graphics, <em>with</em> 3D graphics. Having interactive 3D objects on the pages, right next to the text that explains them, can be both fun and illustrative.</p>
-</td><td><img class="interactive" src="images/Interactive.png" width="246" alt="Contains interactive 3D objects" /></td></tr>
-</table>
+</div>
 
-
-<table class="two_col table_code">
-<tr><td><img class="interactive" src="images/Code.png" width="380" alt="Available sample code" /></td><td>
+<div id="sample_code_pair">
+<img class="sample_code" src="images/Code.png" width="380" alt="Available sample code" />
 <p>Full sample code for all of the chapters are available both <a href="https://github.com/d-ronnqvist/SCNBook-code">online</a> and in the book, at the end of each chapter. You can end the chapter by seeing how the pieces tie together and work with the book right next to your IDE.</p>
-</td></tr>
-</table>
-
+</div>
 
 <a href="https://itunes.apple.com/us/book/3d-graphics-with-scene-kit/id936235049?ls=1&amp;mt=11"><img class="download" src="images/iBooks_Badge.svg" width="140" alt="Download on iBooks" /></a>
 
